@@ -1,0 +1,35 @@
+body {
+  font-family: "Montserrat", "Tahoma", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: black;
+  width: 1150px;
+  margin: 0 auto;
+};
+
+.wysiwyg-wrapper {
+  width: 1110px;
+  padding: 72px 20px;
+  margin: 0 auto;
+  background-color: #FFFDF8;
+}
+
+.wysiwyg-wrapper h1 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 59px;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.wysiwyg-wrapper blockquote {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  color: #9f7303;
+  padding: 40px 100px;
+  border-top: 1px solid #f5d581;
+  border-bottom: 1px solid #f5d581;
+  text-align: center;
+}
