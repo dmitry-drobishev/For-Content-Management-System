@@ -4,23 +4,65 @@ body {
   font-size: 18px;
   line-height: 150%;
   color: black;
-  width: 1150px;
-  margin: 0 auto;
-};
+  max-width: 1150px;
+  display: grid;
+  height: 100%;
+  grid-template-rows: min-content 1fr min-content;
+}
 
-.wysiwyg-wrapper {
+.page-main {
+  background-color: #fffdf8;
+  padding: 60px 0;
+}
+
+.wrapper {
   width: 1110px;
-  padding: 72px 20px;
+  padding: 0 20px;
   margin: 0 auto;
-  background-color: #FFFDF8;
 }
 
 .wysiwyg-wrapper h1 {
   font-weight: 500;
   font-size: 48px;
   line-height: 59px;
-  margin: 0;
   margin-bottom: 32px;
+}
+
+.wysiwyg-wrapper h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 49px;
+  color: #9F7303;
+}
+
+.wysiwyg-wrapper h3 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  color: #9F7303;
+}
+
+.wysiwyg-wrapper ul,
+.wysiwyg-wrapper ol {
+  margin-bottom: 50px;
+  padding-left: 22px;
+}
+
+.wysiwyg-wrapper li {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.wysiwyg-wrapper li::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -20px;
+  top: 10px;
+  width: 8px;
+  height: 8px;
+  background: #F5D581;
+  transform: rotate(45deg);
 }
 
 .wysiwyg-wrapper blockquote {
@@ -32,4 +74,6 @@ body {
   border-top: 1px solid #f5d581;
   border-bottom: 1px solid #f5d581;
   text-align: center;
+  width: 70%;
+  margin: 60px auto 60px auto;
 }
