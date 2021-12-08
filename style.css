@@ -8,6 +8,7 @@ body {
   display: grid;
   height: 100%;
   grid-template-rows: min-content 1fr min-content;
+  margin: 0 auto;
 }
 
 .page-main {
@@ -119,4 +120,77 @@ body {
   line-height: 1.5;
   font-weight: 400;
   margin: 0;
+}
+
+.order {
+  background-color: #f4efe2;
+  padding: 70px 0;
+}
+
+.order-form {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #f5d581;
+}
+
+.order-title {
+  color: #9f7303;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.wpcf7-textarea {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "Montserrat", "Arial", sans-serif;
+  width: 100%;
+  padding: 17px;
+  box-sizing: border-box;
+  border: 1px solid #f5d581;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.wpcf7-text {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "Montserrat", "Arial", sans-serif;
+  padding: 17px;
+  box-sizing: border-box;
+  border: 1px solid #f5d581;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.order-form .wpcf7-text {
+  width: 50%;
+}
+
+.wpcf7-submit {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: #9f7303;
+  color: #ffffff;
+  width: 285px;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.order-text {
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #494844;
+  width: 185px;
+
+  margin-left: 20px;
+}
+
+.order-submit-area {
+  display: flex;
+  align-items: center;
 }
